@@ -1,0 +1,27 @@
+{
+  "name": "docker_web_app",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rwibawa/docker01.git"
+  },
+  "keywords": [
+    "nodejs",
+    "docker"
+  ],
+  "author": "\"Ryan Wibawa <ryan.wibawa@gmail.com> (https://github.com/rwibawa)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rwibawa/docker01/issues"
+  },
+  "homepage": "https://github.com/rwibawa/docker01#readme",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
